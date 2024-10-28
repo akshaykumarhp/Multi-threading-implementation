@@ -98,8 +98,8 @@ void *thread3_func(void *arg) {
         get_current_time(time_str, sizeof(time_str));
         printf("[Thread 3] Time: %s | Shared Value before subtraction: %lld\n", time_str, shared_value);        
         // Perform subtraction
-        shared_value -= 1;
-        printf("[Thread 3] Subtracted 1. Shared Value after subtraction: %lld\n", shared_value);    
+        shared_value -= 10;
+        printf("[Thread 3] Subtracted 10. Shared Value after subtraction: %lld\n", shared_value);    
         if (useMutex) pthread_mutex_unlock(&process_mutex);
     }
     pthread_exit(NULL);
