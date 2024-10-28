@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/akshaykumar/Desktop/3rd Semester/OS/Exercises",
+      "program": "/Users/akshaykumar/Desktop/3rd Semester/OS/Exercises/build/Debug/outDebug"
+    }
+  ]
+}
